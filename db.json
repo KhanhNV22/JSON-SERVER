@@ -2,20 +2,18 @@
   "admin": [
     {
       "id": 1,
-      "first_name": "admin",
-      "last_name": "admin",
+      "name": "admin",
       "email": "admin@gmail.com",
-      "password": "12345678"
+      "password": "1"
     }
   ],
   "users": [
     {
       "id": 1,
-      "name": "khanh12",
+      "name": "khanh",
       "email": "khanh@gmail.com",
       "password": "1",
-      "": "khanh1212",
-      "undefined": "khanh1212"
+      "undefined": "1"
     },
     {
       "id": 2,
@@ -27,17 +25,23 @@
     },
     {
       "id": 3,
-      "name": "khanh",
+      "name": "khanh1",
       "email": "khanh123@gmail.com",
-      "password": "1",
-      "undefined": "1"
+      "password": "1"
     },
     {
       "id": 4,
-      "name": "bobo",
+      "name": "linh linh",
       "email": "bobo@gmail.com",
+      "password": "1"
+    },
+    {
+      "id": 5,
+      "name": "NVK",
+      "email": "nvk@gmail.com",
       "password": "1",
-      "undefined": "bobo@gmail.com"
+      "": "NVK1321",
+      "undefined": "NVK1321"
     }
   ],
   "hosts": [
@@ -46,6 +50,18 @@
       "password": "1",
       "name": "Khanh Nguyen",
       "id": 1
+    },
+    {
+      "name": "NVK",
+      "email": "nvk@gmail.com",
+      "password": "1",
+      "id": 2
+    },
+    {
+      "name": "Test Demo",
+      "email": "test@gmail.com",
+      "password": "1",
+      "id": 3
     }
   ],
   "address": [
@@ -82,7 +98,7 @@
   ],
   "rooms": [
     {
-      "host_id": "4",
+      "host_id": "2",
       "type": "Homestay",
       "name": "The Galaxy Home",
       "cate": "Đặt phòng nhanh",
@@ -98,7 +114,7 @@
       "id": 1
     },
     {
-      "host_id": "4",
+      "host_id": "2",
       "type": "Homestay",
       "name": "Lá Phong hostel",
       "cate": "Đặt phòng nhanh",
@@ -122,7 +138,7 @@
       "addressDetail": "Bờ Hồ, hồ Hoàn Kiếm",
       "square": "431",
       "bedRoom": "31",
-      "price": "500000",
+      "price": "520000",
       "people": "15",
       "info": "Là Nhà nằm tại số 77 Hoàng Diệu, Đà Lạt, cách trung tâm thành phố không xa nên rất tiện đi lại.",
       "img_rooms": "https://nghekhachsan.com/upload/Ni-Anh-NKS/Nam-2020/Thang-1/homestay-dep-tai-ha-noi-01.jpg",
@@ -146,7 +162,7 @@
       "id": 4
     },
     {
-      "host_id": "3",
+      "host_id": "2",
       "type": "Biệt thự",
       "name": "Sunshine Tím",
       "cate": "Đặt phòng nhanh",
@@ -162,7 +178,7 @@
       "id": 5
     },
     {
-      "host_id": "3",
+      "host_id": "2",
       "type": "Studio",
       "name": " Rosemary – Bed & Coffee House ",
       "cate": "Yêu cầu xác nhận",
@@ -179,19 +195,67 @@
     },
     {
       "host_id": "2",
-      "type": "Căn hộ dịch vụ",
-      "name": " Leuleu hostel & cafe",
-      "cate": "Yêu cầu xác nhận",
+      "type": "Homestay",
+      "name": "The Galaxy Home",
+      "cate": "Đặt phòng nhanh",
       "address": "Hà Nội",
       "addressDetail": "Dị Nậu, Thạch Thất, Hà Nội",
       "square": "123",
-      "bedRoom": "123",
-      "price": "123123",
-      "people": "12",
-      "info": "Leuleu Hostel vừa mới khai trương chi nhánh mới với thiết kế dân dã nhưng cũng đủ gây ấn tượng cho các bạn trẻ.",
-      "img_rooms": "https://homestayreview.vn/wp-content/uploads/2020/12/homestay-ha-noi-47.jpg",
+      "bedRoom": "5",
+      "price": "400000",
+      "people": "15",
+      "info": "The Galaxy Home sang trọng, tiện lợi",
+      "img_rooms": "https://cdn.luxstay.com/rooms/37700/large/IMG_2698.jpg",
       "status": 1,
-      "id": 7
+      "id": 8
+    },
+    {
+      "host_id": "2",
+      "type": "Biệt thự",
+      "name": "khanhnv 1",
+      "cate": "Đặt phòng nhanh",
+      "address": "Vũng Tàu",
+      "addressDetail": "di nau, thach that, Ha Noi",
+      "square": "123",
+      "bedRoom": "4",
+      "price": "550000",
+      "people": "10",
+      "info": "JOI homestay AT -BM -TD",
+      "img_rooms": "https://file4.batdongsan.com.vn/2019/06/26/akCJKkFO/20190626185026-dee1.jpg",
+      "status": 1,
+      "id": 9
+    },
+    {
+      "host_id": "1",
+      "type": "Nhà riêng",
+      "name": "Tre House",
+      "cate": "Đặt phòng nhanh",
+      "address": "Hà Nội",
+      "addressDetail": "12 Ngõ 781 Hồng Hà, Phường Chương Dương Độ, Quận Hoàn Kiếm, Hà Nội",
+      "square": "123",
+      "bedRoom": "4",
+      "price": "400.000",
+      "people": "10",
+      "info": "Một căn phòng tiện nghi, yên tĩnh nằm giữa lòng phố cổ sẽ mang đến cho bạn những phút giây thoải mái, thư giãn nhất.",
+      "img_rooms": "https://homestayreview.vn/wp-content/uploads/2020/12/homestay-ha-noi-1.jpg",
+      "status": 1,
+      "id": 10
+    },
+    {
+      "host_id": "1",
+      "type": "Homestay",
+      "name": "The Royal Homies Suite Balcony",
+      "cate": "Đặt phòng nhanh",
+      "address": "Nha Trang",
+      "addressDetail": "Quận 7, Hồ Chí Minh, Vietnam",
+      "square": "123",
+      "bedRoom": "3",
+      "price": "899000",
+      "people": "12",
+      "info": "Khu dân dư đông đúc, an ninh thắt chặt bởi đội ngủ bảo vệ Phú Mỹ Hưng.",
+      "img_rooms": "https://cdn.luxstay.com/users/276795/TgNqpMj4DjdXLP6qAkgzzoii.jpg",
+      "status": 0,
+      "id": 11
     }
   ],
   "bookings": [
@@ -263,8 +327,8 @@
       "adult": "4",
       "children": "",
       "guest_nums": 4,
-      "status": 2,
-      "isCheck": true,
+      "status": 1,
+      "isCheck": false,
       "id": 3
     },
     {
@@ -287,9 +351,57 @@
       "adult": "3",
       "children": "1",
       "guest_nums": 4,
-      "status": 0,
+      "status": 3,
       "isCheck": true,
       "id": 4
+    },
+    {
+      "host_id": "5",
+      "user_id": "5",
+      "room_id": 5,
+      "imgBook": "http://charminghome.com.vn/wp-content/uploads/2018/01/Thi%E1%BA%BFt-K%E1%BA%BF-Homestay-5.jpg",
+      "nameBook": "Sunshine Tím",
+      "infoBook": "Sunshine Tím nằm dưới một con dốc nhỏ tại số 9 Trần Hưng Đạo, từ đây bạn có thể đưa tầm mắt nhìn thẳng ra hồ Xuân Hương và đồi thông tuyệt đẹp.",
+      "addressDetailBook": "hoan kiem, tay ho",
+      "addressBook": "Vũng Tàu",
+      "typeBook": "Biệt thự",
+      "priceBook": "234214",
+      "squareBook": "541",
+      "bedRoomBook": "11",
+      "startDay": "15/04/2022",
+      "endDay": "15/04/2022",
+      "totalDays": 0,
+      "totalPrice": 0,
+      "adult": "2",
+      "children": "1",
+      "guest_nums": 3,
+      "status": 0,
+      "isCheck": true,
+      "id": 5
+    },
+    {
+      "host_id": "5",
+      "user_id": "5",
+      "room_id": 3,
+      "imgBook": "https://nghekhachsan.com/upload/Ni-Anh-NKS/Nam-2020/Thang-1/homestay-dep-tai-ha-noi-01.jpg",
+      "nameBook": "Là Nhà homestay",
+      "infoBook": "Là Nhà nằm tại số 77 Hoàng Diệu, Đà Lạt, cách trung tâm thành phố không xa nên rất tiện đi lại.",
+      "addressDetailBook": "Bờ Hồ, hồ Hoàn Kiếm",
+      "addressBook": "TP. Hồ Chí Minh",
+      "typeBook": "Homestay",
+      "priceBook": "520000",
+      "squareBook": "431",
+      "bedRoomBook": "31",
+      "startDay": "15/04/2022",
+      "endDay": "15/04/2022",
+      "totalDays": 1,
+      "totalPrice": 520000,
+      "adult": "3",
+      "children": "1",
+      "guest_nums": 4,
+      "status": 0,
+      "isCheck": true,
+      "id": 6
     }
   ]
 }
